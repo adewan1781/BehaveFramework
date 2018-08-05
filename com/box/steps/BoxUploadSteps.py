@@ -1,6 +1,6 @@
 from selenium.webdriver.common.by import By
-from com.box.driver.DriverInstance import DriverInstance
 from com.box.steps.WebControls import WebControls
+from com.driver.DriverInstance import DriverInstance
 
 
 class BoxUploadSteps:
@@ -14,7 +14,7 @@ class BoxUploadSteps:
         self.uploadCompletedStatus = WebControls(self.driver,By.CSS_SELECTOR, "div[class=\"uploads-manager is-completed\"]")
         self.uploadInactiveStatus = WebControls(self.driver,By.CSS_SELECTOR, "div[class=\"uploads-manager is-inactive\"]")
         self.alertdialog = WebControls(self.driver,By.CSS_SELECTOR, "div[role=\"alertdialog\"]")
-        self.deletionRow = WebControls(self.driver,By.XPATH, "//li[@data-name='java basics.txt']/div[@role='row']")
+        self.deletionRow = WebControls(self.driver,By.XPATH, "//li[@data-name='Zscaler.png']/div[@role='row']")
         self.trashButton = WebControls(self.driver,By.CSS_SELECTOR, "button[data-type=\"bulk-delete-btn\"]")
         self.confirmButton = WebControls (self.driver, By.CSS_SELECTOR, "button[data-event-type=\"ok\"]")
 
@@ -30,7 +30,7 @@ class BoxUploadSteps:
     def verifyUpload(self):
         self.uploadingStatus.waitForElementInvisibility()
         self.uploadCompletedStatus.waitForElementInvisibility()
-        self.uploadInactiveStatus.waitForElementInvisibility()
+        self.uploadInactiveStatus.waitForElementVisibility()
         uploadMessage = self.alertdialog.getElementText()
         assert ("1 item was uploaded successfully." in uploadMessage), "Upload message not there."
         print("aaaaaaaaaaaaaaaaaaaaaa   ",uploadMessage)

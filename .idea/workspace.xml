@@ -1,7 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e7ded736-b9e8-41c3-b193-df2e94e9ada1" name="Default" comment="" />
+    <list default="true" id="e7ded736-b9e8-41c3-b193-df2e94e9ada1" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/BehaveFramework.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/BehaveFramework.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/com/behave/reports/TESTS-First.xml" beforeDir="false" afterPath="$PROJECT_DIR$/com/behave/reports/TESTS-First.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/com/behave/reports/report.json" beforeDir="false" afterPath="$PROJECT_DIR$/com/behave/reports/report.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/com/box/driver/DriverInstance.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/com/box/driver/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/com/box/steps/BoxLoginSteps.py" beforeDir="false" afterPath="$PROJECT_DIR$/com/box/steps/BoxLoginSteps.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/com/box/steps/BoxUploadSteps.py" beforeDir="false" afterPath="$PROJECT_DIR$/com/box/steps/BoxUploadSteps.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/com/box/steps/WebControls.py" beforeDir="false" afterPath="$PROJECT_DIR$/com/box/steps/WebControls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/com/box/tests/BoxUpload.py" beforeDir="false" afterPath="$PROJECT_DIR$/com/box/tests/BoxUpload.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/com/box/tests/geckodriver.log" beforeDir="false" afterPath="$PROJECT_DIR$/com/box/tests/geckodriver.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/runner.py" beforeDir="false" afterPath="$PROJECT_DIR$/runner.py" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -11,11 +25,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="BoxLoginSteps.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="BoxLoginSteps.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/com/box/steps/BoxLoginSteps.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
-              <caret line="17" column="41" selection-start-line="17" selection-start-column="30" selection-end-line="17" selection-end-column="41" />
+            <state relative-caret-position="32">
+              <caret line="6" column="52" selection-start-line="6" selection-start-column="52" selection-end-line="6" selection-end-column="52" />
               <folding>
                 <element signature="e#0#11#0" expanded="true" />
               </folding>
@@ -26,8 +40,8 @@
       <file leaf-file-name="BoxLogin.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/com/box/tests/BoxLogin.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="9" column="20" selection-start-line="9" selection-start-column="20" selection-end-line="9" selection-end-column="20" />
+            <state relative-caret-position="135">
+              <caret line="9" column="20" lean-forward="true" selection-start-line="9" selection-start-column="20" selection-end-line="9" selection-end-column="20" />
             </state>
           </provider>
         </entry>
@@ -35,8 +49,8 @@
       <file leaf-file-name="BoxUpload.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/com/box/tests/BoxUpload.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="10" column="55" selection-start-line="8" selection-start-column="11" selection-end-line="8" selection-end-column="25" />
+            <state relative-caret-position="120">
+              <caret line="8" column="117" lean-forward="true" selection-start-line="8" selection-start-column="117" selection-end-line="8" selection-end-column="117" />
               <folding>
                 <element signature="e#0#53#0" expanded="true" />
               </folding>
@@ -44,16 +58,20 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="report.json" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/com/behave/reports/report.json">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file leaf-file-name="runner.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="runner.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/runner.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="5" selection-start-line="5" selection-end-line="5" selection-end-column="25" />
+            <state relative-caret-position="150">
+              <caret line="10" selection-start-line="10" selection-end-line="10" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DriverInstance.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/com/driver/DriverInstance.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="165">
+              <caret line="11" column="45" selection-start-line="6" selection-start-column="4" selection-end-line="11" selection-end-column="45" />
             </state>
           </provider>
         </entry>
@@ -61,10 +79,28 @@
       <file leaf-file-name="BoxUploadSteps.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/com/box/steps/BoxUploadSteps.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="5" column="21" selection-start-line="5" selection-start-column="21" selection-end-line="5" selection-end-column="21" />
+            <state relative-caret-position="15">
+              <caret line="2" selection-start-line="2" selection-end-line="2" selection-end-column="52" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="webdriver.py" pinned="false" current-in-tab="false">
+        <entry file="file://$USER_HOME$/.local/lib/python2.7/site-packages/selenium/webdriver/firefox/webdriver.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="15">
+              <caret line="45" column="15" selection-start-line="45" selection-start-column="6" selection-end-line="45" selection-end-column="15" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="WebControls.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/com/box/steps/WebControls.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="383">
+              <caret line="84" column="22" selection-start-line="84" selection-start-column="22" selection-end-line="84" selection-end-column="22" />
               <folding>
-                <element signature="e#0#43#0" expanded="true" />
+                <element signature="e#0#15#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -79,57 +115,80 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/com/box/tests/BoxLogin.py" />
-        <option value="$PROJECT_DIR$/com/box/steps/BoxLoginSteps.py" />
+        <option value="$PROJECT_DIR$/runner.py" />
+        <option value="$PROJECT_DIR$/com/box/driver/DriverInstance.py" />
+        <option value="$PROJECT_DIR$/com/box/steps/WebControls.py" />
         <option value="$PROJECT_DIR$/com/box/tests/BoxUpload.py" />
         <option value="$PROJECT_DIR$/com/box/steps/BoxUploadSteps.py" />
+        <option value="$PROJECT_DIR$/com/box/steps/BoxLoginSteps.py" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
-    <option name="x" value="21" />
-    <option name="width" value="1935" />
-    <option name="height" value="1032" />
+  <component name="ProjectFrameBounds">
+    <option name="y" value="23" />
+    <option name="width" value="1440" />
+    <option name="height" value="787" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
               <item name="BehaveFramework" type="b2602c69:ProjectViewProjectNode" />
-              <item name="BehaveFramework" type="47feb1d3:ProjectViewModuleNode" />
-            </path>
-            <path>
-              <item name="BehaveFramework" type="b2602c69:ProjectViewProjectNode" />
-              <item name="BehaveFramework" type="47feb1d3:ProjectViewModuleNode" />
               <item name="BehaveFramework" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="BehaveFramework" type="b2602c69:ProjectViewProjectNode" />
-              <item name="BehaveFramework" type="47feb1d3:ProjectViewModuleNode" />
               <item name="BehaveFramework" type="462c0819:PsiDirectoryNode" />
               <item name="com" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="BehaveFramework" type="b2602c69:ProjectViewProjectNode" />
+              <item name="BehaveFramework" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="box" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="BehaveFramework" type="b2602c69:ProjectViewProjectNode" />
+              <item name="BehaveFramework" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="box" type="462c0819:PsiDirectoryNode" />
+              <item name="steps" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="BehaveFramework" type="b2602c69:ProjectViewProjectNode" />
+              <item name="BehaveFramework" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="box" type="462c0819:PsiDirectoryNode" />
+              <item name="tests" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
       <pane id="Course" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PythonContentEntriesConfigurable" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/com" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\python-workspace\BehaveFramework\com\box\tests" />
       <recent name="D:\python-workspace\BehaveFramework\com\box\driver" />
@@ -148,7 +207,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.runner">
+  <component name="RunManager" selected="Python.BoxUpload">
     <configuration name="BoxLogin" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="BehaveFramework" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -192,9 +251,9 @@
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
-      <option name="SDK_HOME" value="" />
+      <option name="SDK_HOME" value="$USER_HOME$/.pyenv/versions/3.4.0/bin/python" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
+      <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/runner.py" />
@@ -210,9 +269,9 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.runner" />
         <item itemvalue="Python.BoxUpload" />
         <item itemvalue="Python.BoxLogin" />
+        <item itemvalue="Python.runner" />
       </list>
     </recent_temporary>
   </component>
@@ -230,13 +289,14 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
+    <frame x="0" y="23" width="1440" height="787" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24880762" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.23608175" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32920355" />
-      <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3289855" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Python Console" order="7" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Terminal" order="7" />
@@ -254,7 +314,80 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <option name="time" value="2" />
+    </breakpoint-manager>
+  </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/com/box/tests/BoxLogin.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="26" selection-start-line="2" selection-start-column="26" selection-end-line="2" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/com/box/tests/BoxUpload.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="57" selection-start-line="12" selection-start-column="57" selection-end-line="12" selection-end-column="57" />
+          <folding>
+            <element signature="e#0#53#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/runner.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/com/box/steps/BoxLoginSteps.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="17" column="41" selection-start-line="17" selection-start-column="30" selection-end-line="17" selection-end-column="41" />
+          <folding>
+            <element signature="e#0#11#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/com/box/tests/BoxLogin.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="20" selection-start-line="9" selection-start-column="20" selection-end-line="9" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/com/box/tests/BoxUpload.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="10" column="55" selection-start-line="8" selection-start-column="11" selection-end-line="8" selection-end-column="25" />
+          <folding>
+            <element signature="e#0#53#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/com/behave/reports/report.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/com/box/steps/BoxUploadSteps.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="5" column="21" selection-start-line="5" selection-start-column="21" selection-end-line="5" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/runner.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" selection-start-line="5" selection-end-line="5" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/com/box/steps/BoxLoginSteps.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="289">
@@ -272,41 +405,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/com/box/steps/BoxLoginSteps.py">
+    <entry file="file://$PROJECT_DIR$/com/behave/reports/TESTS-First.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="17" column="41" selection-start-line="17" selection-start-column="30" selection-end-line="17" selection-end-column="41" />
-          <folding>
-            <element signature="e#0#11#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/com/box/tests/BoxLogin.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="20" selection-start-line="9" selection-start-column="20" selection-end-line="9" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/com/box/steps/BoxUploadSteps.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="5" column="21" selection-start-line="5" selection-start-column="21" selection-end-line="5" selection-end-column="21" />
-          <folding>
-            <element signature="e#0#43#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/com/box/tests/BoxUpload.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="55" selection-start-line="8" selection-start-column="11" selection-end-line="8" selection-end-column="25" />
-          <folding>
-            <element signature="e#0#53#0" expanded="true" />
-          </folding>
-        </state>
+        <state relative-caret-position="-471" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/com/behave/reports/report.json">
@@ -314,8 +415,71 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/runner.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" selection-start-line="5" selection-end-line="5" selection-end-column="25" />
+        <state relative-caret-position="150">
+          <caret line="10" selection-start-line="10" selection-end-line="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.local/lib/python2.7/site-packages/selenium/webdriver/firefox/webdriver.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="45" column="15" selection-start-line="45" selection-start-column="6" selection-end-line="45" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.local/lib/python2.7/site-packages/selenium/webdriver/support/expected_conditions.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-965" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/com/box/steps/WebControls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="383">
+          <caret line="84" column="22" selection-start-line="84" selection-start-column="22" selection-end-line="84" selection-end-column="22" />
+          <folding>
+            <element signature="e#0#15#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/com/driver/DriverInstance.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="45" selection-start-line="6" selection-start-column="4" selection-end-line="11" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/com/box/tests/BoxLogin.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="20" lean-forward="true" selection-start-line="9" selection-start-column="20" selection-end-line="9" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/com/box/tests/BoxUpload.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="117" lean-forward="true" selection-start-line="8" selection-start-column="117" selection-end-line="8" selection-end-column="117" />
+          <folding>
+            <element signature="e#0#53#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/com/box/steps/BoxUploadSteps.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="2" selection-start-line="2" selection-end-line="2" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/com/box/steps/BoxLoginSteps.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="32">
+          <caret line="6" column="52" selection-start-line="6" selection-start-column="52" selection-end-line="6" selection-end-column="52" />
+          <folding>
+            <element signature="e#0#11#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

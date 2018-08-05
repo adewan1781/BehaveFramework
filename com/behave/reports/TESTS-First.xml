@@ -1,4 +1,4 @@
-<testsuite errors="0" failures="0" hostname="dreambox" name="First.Calculator scenarios" skipped="0" tests="4" time="0.015624" timestamp="2018-08-04T09:35:57.044939"><testcase classname="First.Calculator scenarios" name="addition of two numbers" status="passed" time="0.0"><system-out>
+<testsuite errors="0" failures="0" hostname="Rajats-MacBook-Pro.local" name="First.Calculator scenarios" skipped="0" tests="4" time="0.001339" timestamp="2018-08-04T10:51:13.450254"><testcase classname="First.Calculator scenarios" name="addition of two numbers" status="passed" time="0.000417"><system-out>
 <![CDATA[
 @scenario.begin
 
@@ -11,7 +11,7 @@
 @scenario.end
 --------------------------------------------------------------------------------
 ]]>
-</system-out></testcase><testcase classname="First.Calculator scenarios" name="substraction of two numbers" status="passed" time="0.015624"><system-out>
+</system-out></testcase><testcase classname="First.Calculator scenarios" name="substraction of two numbers" status="passed" time="0.000322"><system-out>
 <![CDATA[
 @scenario.begin
 
@@ -19,12 +19,12 @@
   Scenario: substraction of two numbers
     Given two nos a and b ... passed in 0.000s
     When I sub two numbers ... passed in 0.000s
-    Then the result must be less than ten ... passed in 0.016s
+    Then the result must be less than ten ... passed in 0.000s
 
 @scenario.end
 --------------------------------------------------------------------------------
 ]]>
-</system-out></testcase><testcase classname="First.Calculator scenarios" name="Multiplication of two numbers" status="passed" time="0.0"><system-out>
+</system-out></testcase><testcase classname="First.Calculator scenarios" name="Multiplication of two numbers" status="passed" time="0.000296"><system-out>
 <![CDATA[
 @scenario.begin
 
@@ -37,7 +37,7 @@
 @scenario.end
 --------------------------------------------------------------------------------
 ]]>
-</system-out></testcase><testcase classname="First.Calculator scenarios" name="Division of two numbers" status="passed" time="0.0"><system-out>
+</system-out></testcase><testcase classname="First.Calculator scenarios" name="Division of two numbers" status="passed" time="0.000304"><system-out>
 <![CDATA[
 @scenario.begin
 

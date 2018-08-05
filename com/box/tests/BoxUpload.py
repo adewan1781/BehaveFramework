@@ -10,7 +10,7 @@ if __name__ == '__main__':
     obj1.selectFolderToGoIn()
     obj.verifyPageTitle ("serious123 | Powered By Box")
     obj1.clickUploadMenu()
-    obj1.uploadFile("D:\\Coaching Docs\\java basics.txt")
+    obj1.uploadFile("/Users/rk/Documents/Zscaler.png")
     obj1.verifyUpload()
     obj1.selectRowToDelete()
     obj1.deleteRow()

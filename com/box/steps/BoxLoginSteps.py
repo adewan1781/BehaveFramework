@@ -1,10 +1,10 @@
 import time
-from selenium import webdriver
 from selenium.webdriver.common.by import By
 
 
-from com.box.driver.DriverInstance import DriverInstance
+from com.driver import DriverInstance
 from com.box.steps.WebControls import WebControls
+from com.driver.DriverInstance import DriverInstance
 
 
 class BoxLoginSteps:

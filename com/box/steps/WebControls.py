@@ -72,3 +72,15 @@ class WebControls:
     def driverQuit(self):
         self.driver.quit()
 
+    def waitForElementVisibility(self):
+        self.element = None
+        present = True
+        try:
+            self.element = self.wait.until(EC.visibility_of_element_located((self.byLocator, self.byValue)))
+            print ("Web Element with ", self.byLocator, ":", self.byValue, " found")
+        except Exception:
+            present = False
+            print ("Web Element with ", self.byLocator, ":", self.byValue, " not found")
+            self.driver.save_screenshot("/Users/rajat/pythonworkspace/PythonLearningProject1/screenshot.png")
+        return present
+
